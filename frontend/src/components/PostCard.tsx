@@ -11,7 +11,7 @@ interface PostProps {
 
 function PostCard({ id, title, tags, imageUrl }: PostProps) {
   // Define a default image if imageUrl is not provided
-  const defaultImageUrl = 'https://via.placeholder.com/300x160?text=No+Image'; // A simple placeholder
+  const defaultImageUrl = 'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-8.png'; // A simple placeholder
 
   return (
     <Card
