@@ -3,15 +3,13 @@ import { createRoot } from 'react-dom/client'
 import {MantineProvider} from '@mantine/core'
 import { BrowserRouter } from 'react-router-dom'
 import '@mantine/core/styles.css'; 
-//import App from './App.tsx'
-import LoginPage from './pages/login.tsx';
+import App from './App.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
       <MantineProvider defaultColorScheme='dark' >
-        {/*<App/>*/}
-        <LoginPage />
+        <App/>
       </MantineProvider>
     </BrowserRouter>
   </StrictMode>,
